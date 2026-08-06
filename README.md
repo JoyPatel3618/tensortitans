@@ -11,9 +11,9 @@ Dataset: RSNA Pneumonia Detection Challenge (Kaggle) + NIH ChestX-ray14.
 | Part | Owner  | What it does                                                   | Status         |
 |------|--------|------------------------------------------------------------------|----------------|
 | A    | Darshi | YOLOv8 pneumonia bounding box detection                          | in progress    |
-| B    | Shreya | DenseNet embeddings + FAISS similar-case search                  | not started    |
-| C    | Joy | Multi-modal fusion (DenseNet + ClinicalBERT) + Grad-CAM           | not started    |
-| D    | Ankit | Report generation, audit dashboard, deployment                   | not started    |
+| B    | Shreya | DenseNet embeddings + FAISS similar-case search                  | in progress   |
+| C    | Joy | Multi-modal fusion (DenseNet + ClinicalBERT) + Grad-CAM           | in progress    |
+| D    | Ankit | Report generation, audit dashboard, deployment                   | in progress  |
 
 Each part runs independently on the same raw X-ray input. Part D is the only
 place where all outputs come together.
