@@ -1,0 +1,14 @@
+# shared dependencies across all 4 parts of the project
+# each member's folder may need extra packages - add those inside that folder's own README
+
+pandas
+numpy
+opencv-python
+pydicom
+tqdm
+ultralytics
+kaggle
+dvc
+torch
+torchvision
+faiss-cpu
